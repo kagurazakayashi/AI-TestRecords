@@ -1,0 +1,17 @@
+<!-- 跨性别旗帜通常包含蓝、粉红和白色条纹。以下是一个简单的SVG代码示例，用于创建一个跨性别旗帜： -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="600" height="300" viewBox="0 0 600 300"
+   version="1.1">
+  <!-- 跨性别旗帜 -->
+  <rect width="600" height="100" fill="#55CDFC" />
+  <rect y="100" width="600" height="100" fill="#F7A8B8" />
+  <rect y="200" width="600" height="100" fill="#FFFFFF" />
+</svg>
+
+<!-- 这段代码将创建一个宽度为600像素、高度为300像素的SVG图像，其中包含三个100像素高的矩形，分别填充为蓝色（#55CDFC）、粉红色（#F7A8B8）和白色（#FFFFFF），代表了跨性别旗帜的三种颜色。您可以根据需要调整尺寸和颜色。 -->

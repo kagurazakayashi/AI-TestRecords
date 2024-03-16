@@ -1,0 +1,11 @@
+<!-- Here is the SVG code that creates a transgender flag with the specified colors and proportions. Each stripe horizontally spans 100% and vertically 20%, with the specified colors for blue (#5BCEFA), pink (#F5A9B8), and white: -->
+
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="0" width="500" height="60" fill="#5BCEFA"/>
+    <rect x="0" y="60" width="500" height="60" fill="#F5A9B8"/>
+    <rect x="0" y="120" width="500" height="60" fill="#FFFFFF"/>
+    <rect x="0" y="180" width="500" height="60" fill="#F5A9B8"/>
+    <rect x="0" y="240" width="500" height="60" fill="#5BCEFA"/>
+</svg>
+
+<!-- This code produces a flag with five horizontal stripes, in the order of blue, pink, white, pink, and blue, each covering 20% of the flag's height vertically. -->

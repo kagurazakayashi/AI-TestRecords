@@ -1,0 +1,101 @@
+正在执行 ChatGLM4.sh...
+./ChatGLM4.sh: 行 24: output: 数组下标不正确
+Program test1 produced incorrect output.
+./ChatGLM4.sh: 行 24: output: 数组下标不正确
+Program test2 produced incorrect output.
+./ChatGLM4.sh: 行 24: output: 数组下标不正确
+Program test3 produced incorrect output.
+./ChatGLM4.sh: 行 24: output: 数组下标不正确
+Program test4 produced incorrect output.
+执行 ChatGLM4.sh 完成。
+====================
+正在执行 ChatGPT4.sh...
+编译成功: test1.c
+程序输出: Hello, World!
+
+输出匹配: Hello, World!
+编译成功: test2.c
+程序输出: Hello, World!
+
+输出匹配: Hello, World!
+编译成功: test3.c
+程序输出: Hello, World!
+
+输出匹配: Hello, World!
+编译成功: test4.c
+程序输出: 
+
+输出不匹配
+执行 ChatGPT4.sh 完成。
+====================
+正在执行 DouBao.sh...
+./DouBao.sh: 行 14: [[!: 未找到命令
+成功：test1.c 输出了 'Hello, World!'
+./DouBao.sh: 行 14: [[!: 未找到命令
+成功：test2.c 输出了 'Hello, World!'
+./DouBao.sh: 行 14: [[!: 未找到命令
+成功：test3.c 输出了 'Hello, World!'
+./DouBao.sh: 行 14: [[!: 未找到命令
+失败：test4.c 没有输出 'Hello, World!'
+执行 DouBao.sh 完成。
+====================
+正在执行 GeminiAdvanced.sh...
+Hello, World!Hello, World!
+Hello, World!程序 ./test4 输出错误：
+执行 GeminiAdvanced.sh 完成。
+====================
+正在执行 GitHubCopilot.sh...
+test1.c: 输出不是 'Hello, World!'
+test2.c: 输出不是 'Hello, World!'
+test3.c: 输出不是 'Hello, World!'
+test4.c: 输出不是 'Hello, World!'
+执行 GitHubCopilot.sh 完成。
+====================
+正在执行 MSCopilotPro_GPT4Turbo.sh...
+程序 test1 的输出正确: Hello, World!
+
+程序 test2 的输出正确: Hello, World!
+
+程序 test3 的输出正确: Hello, World!
+
+程序 test4 的输出不正确: 
+
+执行 MSCopilotPro_GPT4Turbo.sh 完成。
+====================
+正在执行 SparkDesk.sh...
+gcc: 致命错误：input file ‘test1.c’ is the same as output file
+编译中断。
+gcc: 致命错误：input file ‘test2.c’ is the same as output file
+编译中断。
+gcc: 致命错误：input file ‘test3.c’ is the same as output file
+编译中断。
+gcc: 致命错误：input file ‘test4.c’ is the same as output file
+编译中断。
+执行 SparkDesk.sh 完成。
+====================
+正在执行 TongYiQianWen.sh...
+File 'test1.c' did not produce the expected output: Hello, World!\n
+File 'test2.c' did not produce the expected output: Hello, World!\n
+File 'test3.c' did not produce the expected output: Hello, World!\n
+File 'test4.c' did not produce the expected output: \n
+执行 TongYiQianWen.sh 完成。
+====================
+正在执行 YiYanPro_WenXin4.sh...
+Program test1 does not output 'Hello, World!' correctly.
+Actual output:
+Hello, World!
+
+Program test2 does not output 'Hello, World!' correctly.
+Actual output:
+Hello, World!
+
+Program test3 does not output 'Hello, World!' correctly.
+Actual output:
+Hello, World!
+
+Program test4 does not output 'Hello, World!' correctly.
+Actual output:
+
+
+执行 YiYanPro_WenXin4.sh 完成。
+====================

@@ -1,0 +1,210 @@
+Compiling ChatGLM4.cs ...
+已成功创建模板“控制台应用”。
+
+正在处理创建后操作...
+正在还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGLM4\ChatGLM4.csproj:
+  正在确定要还原的项目…
+  已还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGLM4\ChatGLM4.csproj (用时 61 ms)。
+已成功还原。
+
+
+        1 file(s) copied.
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGLM4\Program.cs(20,24): warning CA1416: 可在所有平台上访问此调用站点。"WindowsPrincipal.IsInRole(WindowsBuiltInRole)" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGLM4\ChatGLM4.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGLM4\Program.cs(14,38): warning CA1416: 可在所有平台上访问此调用站点。"WindowsPrincipal" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGLM4\ChatGLM4.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGLM4\Program.cs(20,43): warning CA1416: 可在所有平台上访问此调用站点。"WindowsBuiltInRole.Administrator" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGLM4\ChatGLM4.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGLM4\Program.cs(17,39): warning CA1416: 可在所有平台上访问此调用站点。"WindowsIdentity.Name" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGLM4\ChatGLM4.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGLM4\Program.cs(12,36): warning CA1416: 可在所有平台上访问此调用站点。"WindowsIdentity.GetCurrent()" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGLM4\ChatGLM4.csproj]
+当前用户名: kagurazaka\yashi
+当前用户是否是管理员: False
+请以管理员身份运行此程序以获取完整权限信息。
+Done ChatGLM4.cs .
+========================
+Compiling ChatGPT4.cs ...
+已成功创建模板“控制台应用”。
+
+正在处理创建后操作...
+正在还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\ChatGPT4.csproj:
+  正在确定要还原的项目…
+  已还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\ChatGPT4.csproj (用时 65 ms)。
+已成功还原。
+
+
+        1 file(s) copied.
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\Program.cs(22,35): warning CS8602: 解引用可能出现空引用。 [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\ChatGPT4.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\Program.cs(24,35): warning CA1416: 可在所有平台上访问此调用站点。"IdentityReference.Value" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\ChatGPT4.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\Program.cs(22,35): warning CA1416: 可在所有平台上访问此调用站点。"WindowsIdentity.Groups" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\ChatGPT4.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\Program.cs(11,40): warning CA1416: 可在所有平台上访问此调用站点。"WindowsIdentity.GetCurrent()" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\ChatGPT4.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\Program.cs(12,42): warning CA1416: 可在所有平台上访问此调用站点。"WindowsPrincipal" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\ChatGPT4.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\Program.cs(17,42): warning CA1416: 可在所有平台上访问此调用站点。"WindowsIdentity.Name" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\ChatGPT4.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\Program.cs(15,47): warning CA1416: 可在所有平台上访问此调用站点。"WindowsBuiltInRole.Administrator" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\ChatGPT4.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\Program.cs(22,35): warning CA1416: 可在所有平台上访问此调用站点。"IdentityReferenceCollection.Translate(Type)" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\ChatGPT4.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\Program.cs(15,28): warning CA1416: 可在所有平台上访问此调用站点。"WindowsPrincipal.IsInRole(WindowsBuiltInRole)" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\ChatGPT4\ChatGPT4.csproj]
+当前用户: kagurazaka\yashi
+是否管理员: 否
+用户所属的组:
+Everyone
+BUILTIN\Performance Log Users
+BUILTIN\Users
+NT AUTHORITY\INTERACTIVE
+CONSOLE LOGON
+NT AUTHORITY\Authenticated Users
+NT AUTHORITY\This Organization
+MicrosoftAccount\yashi
+NT AUTHORITY\本地帐户
+LOCAL
+NT AUTHORITY\云帐户身份验证
+Done ChatGPT4.cs .
+========================
+Compiling DouBao.cs ...
+已成功创建模板“控制台应用”。
+
+正在处理创建后操作...
+正在还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\DouBao\DouBao.csproj:
+  正在确定要还原的项目…
+  已还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\DouBao\DouBao.csproj (用时 60 ms)。
+已成功还原。
+
+
+        1 file(s) copied.
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\DouBao\Program.cs(11,58): error CS1061: “SecurityIdentifier”未包含“IsInRole”的定义，并且找不到可接受第一个“SecurityIdentifier”类型参数的可访问扩展方法“IsInRole”(是否缺少 using 指令或程序集引用?) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\DouBao\DouBao.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\DouBao\Program.cs(28,45): error CS1061: “WindowsPrincipal”未包含“User”的定义，并且找不到可接受第一个“WindowsPrincipal”类型参数的可访问扩展方法“User”(是否缺少 using 指令或程序集引用?) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\DouBao\DouBao.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\DouBao\Program.cs(11,24): warning CS8602: 解引用可能出现空引用。 [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\DouBao\DouBao.csproj]
+
+生成失败。请修复生成错误并重新运行。
+Done DouBao.cs .
+========================
+Compiling GeminiAdvanced.cs ...
+已成功创建模板“控制台应用”。
+
+正在处理创建后操作...
+正在还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\GeminiAdvanced.csproj:
+  正在确定要还原的项目…
+  已还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\GeminiAdvanced.csproj (用时 62 ms)。
+已成功还原。
+
+
+        1 file(s) copied.
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\Program.cs(21,44): error CS1061: “WindowsPrincipal”未包含“Name”的定义，并且找不到可接受第一个“WindowsPrincipal”类型参数的可访问扩展方法“Name”(是否缺少 using 指令或程序集引用?) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\GeminiAdvanced.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\Program.cs(19,9): error CS0030: 无法将类型“System.Security.Principal.IdentityReference”转换为“System.Security.Principal.WindowsPrincipal” [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\GeminiAdvanced.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\Program.cs(19,44): warning CS8602: 解引用可能出现空引用。 [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\GeminiAdvanced.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\Program.cs(32,16): warning CA1416: 可在所有平台上访问此调用站点。"WindowsPrincipal.IsInRole(WindowsBuiltInRole)" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\GeminiAdvanced.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\Program.cs(30,35): warning CA1416: 可在所有平台上访问此调用站点。"WindowsIdentity.GetCurrent()" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\GeminiAdvanced.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\Program.cs(31,45): warning CA1416: 可在所有平台上访问此调用站点。"WindowsPrincipal" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\GeminiAdvanced.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\Program.cs(32,42): warning CA1416: 可在所有平台上访问此调用站点。"WindowsBuiltInRole.Administrator" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GeminiAdvanced\GeminiAdvanced.csproj]
+
+生成失败。请修复生成错误并重新运行。
+Done GeminiAdvanced.cs .
+========================
+Compiling GitHubCopilot.cs ...
+已成功创建模板“控制台应用”。
+
+正在处理创建后操作...
+正在还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GitHubCopilot\GitHubCopilot.csproj:
+  正在确定要还原的项目…
+  已还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GitHubCopilot\GitHubCopilot.csproj (用时 61 ms)。
+已成功还原。
+
+
+        1 file(s) copied.
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GitHubCopilot\Program.cs(29,24): warning CA1416: 可在所有平台上访问此调用站点。"WindowsPrincipal.IsInRole(SecurityIdentifier)" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GitHubCopilot\GitHubCopilot.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GitHubCopilot\Program.cs(26,39): warning CA1416: 可在所有平台上访问此调用站点。"SecurityIdentifier" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GitHubCopilot\GitHubCopilot.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GitHubCopilot\Program.cs(23,38): warning CA1416: 可在所有平台上访问此调用站点。"WindowsPrincipal" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GitHubCopilot\GitHubCopilot.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GitHubCopilot\Program.cs(32,35): warning CA1416: 可在所有平台上访问此调用站点。"WindowsIdentity.Name" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GitHubCopilot\GitHubCopilot.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GitHubCopilot\Program.cs(26,62): warning CA1416: 可在所有平台上访问此调用站点。"WellKnownSidType.BuiltinAdministratorsSid" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GitHubCopilot\GitHubCopilot.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GitHubCopilot\Program.cs(21,36): warning CA1416: 可在所有平台上访问此调用站点。"WindowsIdentity.GetCurrent()" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\GitHubCopilot\GitHubCopilot.csproj]
+用户名: kagurazaka\yashi
+是否为管理员: False
+Done GitHubCopilot.cs .
+========================
+Compiling MSCopilotPro_GPT4Turbo.cs ...
+已成功创建模板“控制台应用”。
+
+正在处理创建后操作...
+正在还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\MSCopilotPro_GPT4Turbo\MSCopilotPro_GPT4Turbo.csproj:
+  正在确定要还原的项目…
+  已还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\MSCopilotPro_GPT4Turbo\MSCopilotPro_GPT4Turbo.csproj (用时 58 ms)。
+已成功还原。
+
+
+        1 file(s) copied.
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\MSCopilotPro_GPT4Turbo\Program.cs(14,38): warning CA1416: 可在所有平台上访问此调用站点。"WindowsBuiltInRole.Administrator" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\MSCopilotPro_GPT4Turbo\MSCopilotPro_GPT4Turbo.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\MSCopilotPro_GPT4Turbo\Program.cs(13,28): warning CA1416: 可在所有平台上访问此调用站点。"WindowsPrincipal" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\MSCopilotPro_GPT4Turbo\MSCopilotPro_GPT4Turbo.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\MSCopilotPro_GPT4Turbo\Program.cs(13,28): warning CA1416: 可在所有平台上访问此调用站点。"WindowsPrincipal.IsInRole(WindowsBuiltInRole)" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\MSCopilotPro_GPT4Turbo\MSCopilotPro_GPT4Turbo.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\MSCopilotPro_GPT4Turbo\Program.cs(13,49): warning CA1416: 可在所有平台上访问此调用站点。"WindowsIdentity.GetCurrent()" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\MSCopilotPro_GPT4Turbo\MSCopilotPro_GPT4Turbo.csproj]
+当前用户名: yashi
+用户域名: kagurazaka
+是否以管理员权限运行: 否
+Done MSCopilotPro_GPT4Turbo.cs .
+========================
+Compiling SparkDesk.cs ...
+已成功创建模板“控制台应用”。
+
+正在处理创建后操作...
+正在还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\SparkDesk\SparkDesk.csproj:
+  正在确定要还原的项目…
+  已还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\SparkDesk\SparkDesk.csproj (用时 56 ms)。
+已成功还原。
+
+
+        1 file(s) copied.
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\SparkDesk\Program.cs(19,42): warning CA1416: 可在所有平台上访问此调用站点。"WindowsIdentity.Name" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\SparkDesk\SparkDesk.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\SparkDesk\Program.cs(17,24): warning CA1416: 可在所有平台上访问此调用站点。"WindowsPrincipal.IsInRole(WindowsBuiltInRole)" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\SparkDesk\SparkDesk.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\SparkDesk\Program.cs(17,43): warning CA1416: 可在所有平台上访问此调用站点。"WindowsBuiltInRole.Administrator" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\SparkDesk\SparkDesk.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\SparkDesk\Program.cs(14,38): warning CA1416: 可在所有平台上访问此调用站点。"WindowsPrincipal" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\SparkDesk\SparkDesk.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\SparkDesk\Program.cs(11,36): warning CA1416: 可在所有平台上访问此调用站点。"WindowsIdentity.GetCurrent()" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\SparkDesk\SparkDesk.csproj]
+Username: kagurazaka\yashi
+Is Admin: False
+Done SparkDesk.cs .
+========================
+Compiling TongYiQianWen.cs ...
+已成功创建模板“控制台应用”。
+
+正在处理创建后操作...
+正在还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\TongYiQianWen.csproj:
+  正在确定要还原的项目…
+  已还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\TongYiQianWen.csproj (用时 61 ms)。
+已成功还原。
+
+
+        1 file(s) copied.
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\Program.cs(20,31): warning CS8602: 解引用可能出现空引用。 [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\TongYiQianWen.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\Program.cs(24,39): warning CS8600: 将 null 文本或可能的 null 值转换为不可为 null 类型。 [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\TongYiQianWen.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\Program.cs(20,31): warning CA1416: 可在所有平台上访问此调用站点。"WindowsIdentity.Groups" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\TongYiQianWen.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\Program.cs(14,24): warning CA1416: 可在所有平台上访问此调用站点。"WindowsPrincipal.IsInRole(WindowsBuiltInRole)" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\TongYiQianWen.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\Program.cs(10,36): warning CA1416: 可在所有平台上访问此调用站点。"WindowsIdentity.GetCurrent()" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\TongYiQianWen.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\Program.cs(14,43): warning CA1416: 可在所有平台上访问此调用站点。"WindowsBuiltInRole.Administrator" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\TongYiQianWen.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\Program.cs(11,38): warning CA1416: 可在所有平台上访问此调用站点。"WindowsPrincipal" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\TongYiQianWen.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\Program.cs(27,49): warning CA1416: 可在所有平台上访问此调用站点。"NTAccount.Value" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\TongYiQianWen.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\Program.cs(24,39): warning CA1416: 可在所有平台上访问此调用站点。"IdentityReference.Translate(Type)" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\TongYiQianWen.csproj]
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\Program.cs(16,39): warning CA1416: 可在所有平台上访问此调用站点。"WindowsIdentity.Name" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\TongYiQianWen\TongYiQianWen.csproj]
+当前用户名: kagurazaka\yashi
+是否以管理员权限运行: False
+用户组: Everyone
+用户组: BUILTIN\Performance Log Users
+用户组: BUILTIN\Users
+用户组: NT AUTHORITY\INTERACTIVE
+用户组: CONSOLE LOGON
+用户组: NT AUTHORITY\Authenticated Users
+用户组: NT AUTHORITY\This Organization
+用户组: MicrosoftAccount\yashi
+用户组: NT AUTHORITY\本地帐户
+用户组: LOCAL
+用户组: NT AUTHORITY\云帐户身份验证
+Done TongYiQianWen.cs .
+========================
+Compiling YiYanPro_WenXin4.cs ...
+已成功创建模板“控制台应用”。
+
+正在处理创建后操作...
+正在还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\YiYanPro_WenXin4\YiYanPro_WenXin4.csproj:
+  正在确定要还原的项目…
+  已还原 C:\c\aitest\20240316\5.C#检查是否具有管理员权限\YiYanPro_WenXin4\YiYanPro_WenXin4.csproj (用时 62 ms)。
+已成功还原。
+
+
+        1 file(s) copied.
+C:\c\aitest\20240316\5.C#检查是否具有管理员权限\YiYanPro_WenXin4\Program.cs(4,14): error CS0234: 命名空间“System”中不存在类型或命名空间名“DirectoryServices”(是否缺少程序集引用?) [C:\c\aitest\20240316\5.C#检查是否具有管理员权限\YiYanPro_WenXin4\YiYanPro_WenXin4.csproj]
+
+生成失败。请修复生成错误并重新运行。
+Done YiYanPro_WenXin4.cs .
+========================

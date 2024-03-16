@@ -1,0 +1,50 @@
+编译成功: ChatGLM4.c
+程序输出: Hello, World!
+
+[OK] 输出匹配。
+====================
+编译成功: ChatGPT4.c
+程序输出: Hello, World!
+
+[OK] 输出匹配。
+====================
+编译成功: DouBao.c
+程序输出: Hello, World!
+
+[OK] 输出匹配。
+====================
+编译成功: GeminiAdvanced.c
+程序输出: Hello, World!
+
+[OK] 输出匹配。
+====================
+编译成功: GitHubCopilot.c
+程序输出: Hello, World!
+
+[OK] 输出匹配。
+====================
+编译成功: MSCopilotPro_GPT4Turbo.c
+程序输出: Hello, World!
+
+[OK] 输出匹配。
+====================
+编译成功: SparkDesk.c
+程序输出: Hello, World!
+
+[OK] 输出匹配。
+====================
+编译成功: TianGong.c
+程序输出: Hello, World!
+
+[OK] 输出匹配。
+====================
+编译成功: TongYiQianWen.c
+程序输出: Hello, World!
+
+[OK] 输出匹配。
+====================
+编译成功: YiYanPro_WenXin4.c
+程序输出: Hello, World!
+
+[OK] 输出匹配。
+====================

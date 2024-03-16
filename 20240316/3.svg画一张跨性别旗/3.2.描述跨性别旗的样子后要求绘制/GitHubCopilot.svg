@@ -1,0 +1,11 @@
+<!-- 以下是创建跨性别旗帜的SVG代码： -->
+
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="20%" style="fill:#5BCEFA;" />
+    <rect y="20%" width="100%" height="20%" style="fill:#F5A9B8;" />
+    <rect y="40%" width="100%" height="20%" style="fill:#ffffff;" />
+    <rect y="60%" width="100%" height="20%" style="fill:#F5A9B8;" />
+    <rect y="80%" width="100%" height="20%" style="fill:#5BCEFA;" />
+</svg>
+
+<!-- 这段代码创建了一个SVG图像，其中包含五个矩形元素，每个元素代表旗帜的一条条纹。每个矩形的宽度都是100%，高度是20%，以此来确保每条条纹都占据旗帜的五分之一。矩形的填充颜色分别是蓝色（#5BCEFA）、粉色（#F5A9B8）和白色（#ffffff），这些颜色按照跨性别旗帜的设计排列。 -->

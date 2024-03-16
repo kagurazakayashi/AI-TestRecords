@@ -1,0 +1,149 @@
+正在执行 ChatGLM4.py ...
+Traceback (most recent call last):
+  File "/c/c/aitest/20240316/4.python分割nginx日志/ChatGLM4.py", line 51, in <module>
+    create_folder_and_file(log_file_path)
+  File "/c/c/aitest/20240316/4.python分割nginx日志/ChatGLM4.py", line 27, in create_folder_and_file
+    year, month, day, hour_min = date_time_str.split('/')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 3)
+执行 ChatGLM4.py 完成。
+====================
+正在执行 ChatGPT4.py ...
+logs
+├── 2023
+│   └── 03
+│       └── 16
+│           └── 19
+│               ├── 01.log
+│               └── 02.log
+└── 2024
+    ├── 02
+    │   └── 15
+    │       └── 14
+    │           └── 42.log
+    └── 03
+        ├── 16
+        │   ├── 14
+        │   │   └── 42.log
+        │   └── 15
+        │       ├── 30.log
+        │       ├── 33.log
+        │       ├── 37.log
+        │       └── 55.log
+        └── 17
+            ├── 15
+            │   └── 55.log
+            └── 18
+                └── 20.log
+
+16 directories, 10 files
+2023/03/16 19:02:20 [error] 29#29: *18348 open() "/usr/share/nginx/html/uuu/security.txt" failed (2: No such file or directory), client: 162.158.163.100, server: uuu.moe, request: "GET /security.txt HTTP/1.1", host: "uuu.moe"
+2023/03/16 19:02:30 [error] 29#29: *18351 open() "/usr/share/nginx/html/uuu/trust.txt" failed (2: No such file or directory), client: 162.158.106.199, server: uuu.moe, request: "GET /trust.txt HTTP/1.1", host: "uuu.moe"
+执行 ChatGPT4.py 完成。
+====================
+正在执行 DouBao.py ...
+Traceback (most recent call last):
+  File "/c/c/aitest/20240316/4.python分割nginx日志/DouBao.py", line 37, in <module>
+    process_log_file(log_file_path)
+  File "/c/c/aitest/20240316/4.python分割nginx日志/DouBao.py", line 14, in process_log_file
+    dt = datetime.datetime.strptime(date_time, '%Y/%m/%d %H:%M:%S')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023/03/16' does not match format '%Y/%m/%d %H:%M:%S'
+执行 DouBao.py 完成。
+====================
+正在执行 GeminiAdvanced.py ...
+Traceback (most recent call last):
+  File "/c/c/aitest/20240316/4.python分割nginx日志/GeminiAdvanced.py", line 51, in <module>
+    create_dir(log_file_path)
+  File "/c/c/aitest/20240316/4.python分割nginx日志/GeminiAdvanced.py", line 27, in create_dir
+    dt = datetime.datetime.strptime(time_str, '%Y/%m/%d %H:%M:%S')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023/03/16' does not match format '%Y/%m/%d %H:%M:%S'
+执行 GeminiAdvanced.py 完成。
+====================
+正在执行 GitHubCopilot.py ...
+Traceback (most recent call last):
+  File "/c/c/aitest/20240316/4.python分割nginx日志/GitHubCopilot.py", line 28, in <module>
+    process_log_file(log_file_path)
+  File "/c/c/aitest/20240316/4.python分割nginx日志/GitHubCopilot.py", line 14, in process_log_file
+    date_time_obj = datetime.datetime.strptime(date_time_str, '%Y/%m/%d %H:%M:%S')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023/03/16' does not match format '%Y/%m/%d %H:%M:%S'
+执行 GitHubCopilot.py 完成。
+====================
+正在执行 MSCopilotPro_GPT4Turbo.py ...
+An error occurred: time data '2023/03/16' does not match format '%Y/%m/%d %H:%M:%S'
+执行 MSCopilotPro_GPT4Turbo.py 完成。
+====================
+正在执行 SparkDesk.py ...
+Traceback (most recent call last):
+  File "/c/c/aitest/20240316/4.python分割nginx日志/SparkDesk.py", line 22, in <module>
+    create_log_folder(log_file_path)
+  File "/c/c/aitest/20240316/4.python分割nginx日志/SparkDesk.py", line 9, in create_log_folder
+    date_time = datetime.strptime(timestamp, '%Y/%m/%d %H:%M:%S')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023/03/16' does not match format '%Y/%m/%d %H:%M:%S'
+执行 SparkDesk.py 完成。
+====================
+正在执行 TongYiQianWen.py ...
+Traceback (most recent call last):
+  File "/c/c/aitest/20240316/4.python分割nginx日志/TongYiQianWen.py", line 28, in <module>
+    create_dirs_and_move_logs(args.log_file)
+  File "/c/c/aitest/20240316/4.python分割nginx日志/TongYiQianWen.py", line 11, in create_dirs_and_move_logs
+    timestamp = datetime.strptime(timestamp_str, '%Y/%m/%d %H:%M:%S')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023/03/16' does not match format '%Y/%m/%d %H:%M:%S'
+执行 TongYiQianWen.py 完成。
+====================
+正在执行 YiYanPro_WenXin4.py ...
+2023
+└── 03
+    └── 16
+        └── 19
+            └── 分钟.log
+2024
+├── 02
+│   └── 15
+│       └── 14
+│           └── 分钟.log
+└── 03
+    ├── 16
+    │   ├── 14
+    │   │   └── 分钟.log
+    │   └── 15
+    │       └── 分钟.log
+    └── 17
+        ├── 15
+        │   └── 分钟.log
+        └── 18
+            └── 分钟.log
+
+15 directories, 6 files
+cat: 2023/03/16/19/02.log: No such file or directory
+执行 YiYanPro_WenXin4.py 完成。
+====================

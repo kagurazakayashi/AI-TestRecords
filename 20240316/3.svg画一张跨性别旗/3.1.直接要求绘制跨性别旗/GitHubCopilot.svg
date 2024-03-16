@@ -1,0 +1,11 @@
+<!-- 以下是一段创建跨性别旗帜的SVG代码。跨性别旗帜由五个水平条纹组成，颜色从上到下分别是：蓝色、粉色、白色、粉色和蓝色。 -->
+
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="160" style="fill: #55CDFC;" />
+    <rect y="160" width="1200" height="160" style="fill: #F7A8B8;" />
+    <rect y="320" width="1200" height="160" style="fill: #FFFFFF;" />
+    <rect y="480" width="1200" height="160" style="fill: #F7A8B8;" />
+    <rect y="640" width="1200" height="160" style="fill: #55CDFC;" />
+</svg>
+
+<!-- 这段代码创建了一个1200x800的SVG画布，并在其中添加了五个矩形。每个矩形的宽度都是1200，高度是160，颜色分别是蓝色（#55CDFC）、粉色（#F7A8B8）、白色（#FFFFFF）、粉色（#F7A8B8）和蓝色（#55CDFC）。矩形的y属性决定了其在画布上的位置。 -->

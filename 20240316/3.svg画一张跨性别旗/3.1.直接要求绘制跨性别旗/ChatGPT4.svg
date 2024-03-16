@@ -1,0 +1,16 @@
+<!-- Here is the SVG code to create a transgender flag: -->
+
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Light Blue -->
+    <rect width="300" height="40" y="0" fill="#55CDFC"/>
+    <!-- Pink -->
+    <rect width="300" height="40" y="40" fill="#F7A8B8"/>
+    <!-- White -->
+    <rect width="300" height="40" y="80" fill="#FFFFFF"/>
+    <!-- Pink -->
+    <rect width="300" height="40" y="120" fill="#F7A8B8"/>
+    <!-- Light Blue -->
+    <rect width="300" height="40" y="160" fill="#55CDFC"/>
+</svg>
+
+<!-- This code defines a 300 by 200 pixels flag with five horizontal stripes. From top to bottom, the colors are light blue, pink, white, pink, and light blue again, following the pattern of the transgender flag. -->

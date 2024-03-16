@@ -1,0 +1,16 @@
+<!-- 当然可以。以下是创建跨性别旗帜的SVG代码： -->
+
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Light blue stripe -->
+    <rect width="500" height="60" y="0" style="fill:#55CDFC"/>
+    <!-- Pink stripe -->
+    <rect width="500" height="60" y="60" style="fill:#F7A8B8"/>
+    <!-- White stripe -->
+    <rect width="500" height="60" y="120" style="fill:#FFFFFF"/>
+    <!-- Pink stripe -->
+    <rect width="500" height="60" y="180" style="fill:#F7A8B8"/>
+    <!-- Light blue stripe -->
+    <rect width="500" height="60" y="240" style="fill:#55CDFC"/>
+</svg>
+
+<!-- 这段代码将创建一个宽500像素、高300像素的SVG图像，其中包含跨性别旗帜的五个条纹：两个浅蓝色条纹、两个粉红色条纹和一个白色条纹。您可以根据需要调整尺寸和颜色。希望这对您有所帮助！ -->
