@@ -23,6 +23,11 @@
 
 [OK] 输出匹配。
 ====================
+编译成功: Kimi.c
+程序输出: Hello, World!
+
+[OK] 输出匹配。
+====================
 编译成功: MSCopilotPro_GPT4Turbo.c
 程序输出: Hello, World!
 

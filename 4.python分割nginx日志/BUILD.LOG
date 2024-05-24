@@ -1,8 +1,8 @@
 正在执行 ChatGLM4.py ...
 Traceback (most recent call last):
-  File "/c/c/aitest/20240316/4.python分割nginx日志/ChatGLM4.py", line 51, in <module>
+  File "/p/AI-TestRecords/4.python分割nginx日志/ChatGLM4.py", line 51, in <module>
     create_folder_and_file(log_file_path)
-  File "/c/c/aitest/20240316/4.python分割nginx日志/ChatGLM4.py", line 27, in create_folder_and_file
+  File "/p/AI-TestRecords/4.python分割nginx日志/ChatGLM4.py", line 27, in create_folder_and_file
     year, month, day, hour_min = date_time_str.split('/')
     ^^^^^^^^^^^^^^^^^^^^^^^^^^
 ValueError: not enough values to unpack (expected 4, got 3)
@@ -43,9 +43,9 @@ logs
 ====================
 正在执行 DouBao.py ...
 Traceback (most recent call last):
-  File "/c/c/aitest/20240316/4.python分割nginx日志/DouBao.py", line 37, in <module>
+  File "/p/AI-TestRecords/4.python分割nginx日志/DouBao.py", line 37, in <module>
     process_log_file(log_file_path)
-  File "/c/c/aitest/20240316/4.python分割nginx日志/DouBao.py", line 14, in process_log_file
+  File "/p/AI-TestRecords/4.python分割nginx日志/DouBao.py", line 14, in process_log_file
     dt = datetime.datetime.strptime(date_time, '%Y/%m/%d %H:%M:%S')
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
@@ -58,9 +58,9 @@ ValueError: time data '2023/03/16' does not match format '%Y/%m/%d %H:%M:%S'
 ====================
 正在执行 GeminiAdvanced.py ...
 Traceback (most recent call last):
-  File "/c/c/aitest/20240316/4.python分割nginx日志/GeminiAdvanced.py", line 51, in <module>
+  File "/p/AI-TestRecords/4.python分割nginx日志/GeminiAdvanced.py", line 51, in <module>
     create_dir(log_file_path)
-  File "/c/c/aitest/20240316/4.python分割nginx日志/GeminiAdvanced.py", line 27, in create_dir
+  File "/p/AI-TestRecords/4.python分割nginx日志/GeminiAdvanced.py", line 27, in create_dir
     dt = datetime.datetime.strptime(time_str, '%Y/%m/%d %H:%M:%S')
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
@@ -73,9 +73,9 @@ ValueError: time data '2023/03/16' does not match format '%Y/%m/%d %H:%M:%S'
 ====================
 正在执行 GitHubCopilot.py ...
 Traceback (most recent call last):
-  File "/c/c/aitest/20240316/4.python分割nginx日志/GitHubCopilot.py", line 28, in <module>
+  File "/p/AI-TestRecords/4.python分割nginx日志/GitHubCopilot.py", line 28, in <module>
     process_log_file(log_file_path)
-  File "/c/c/aitest/20240316/4.python分割nginx日志/GitHubCopilot.py", line 14, in process_log_file
+  File "/p/AI-TestRecords/4.python分割nginx日志/GitHubCopilot.py", line 14, in process_log_file
     date_time_obj = datetime.datetime.strptime(date_time_str, '%Y/%m/%d %H:%M:%S')
                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
@@ -86,15 +86,25 @@ Traceback (most recent call last):
 ValueError: time data '2023/03/16' does not match format '%Y/%m/%d %H:%M:%S'
 执行 GitHubCopilot.py 完成。
 ====================
+正在执行 Kimi.py ...
+Traceback (most recent call last):
+  File "/p/AI-TestRecords/4.python分割nginx日志/Kimi.py", line 30, in <module>
+    process_nginx_logs(log_file_path)
+  File "/p/AI-TestRecords/4.python分割nginx日志/Kimi.py", line 15, in process_nginx_logs
+    year, month, day, hour = timestamp.split('/')
+    ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 3)
+执行 Kimi.py 完成。
+====================
 正在执行 MSCopilotPro_GPT4Turbo.py ...
 An error occurred: time data '2023/03/16' does not match format '%Y/%m/%d %H:%M:%S'
 执行 MSCopilotPro_GPT4Turbo.py 完成。
 ====================
 正在执行 SparkDesk.py ...
 Traceback (most recent call last):
-  File "/c/c/aitest/20240316/4.python分割nginx日志/SparkDesk.py", line 22, in <module>
+  File "/p/AI-TestRecords/4.python分割nginx日志/SparkDesk.py", line 22, in <module>
     create_log_folder(log_file_path)
-  File "/c/c/aitest/20240316/4.python分割nginx日志/SparkDesk.py", line 9, in create_log_folder
+  File "/p/AI-TestRecords/4.python分割nginx日志/SparkDesk.py", line 9, in create_log_folder
     date_time = datetime.strptime(timestamp, '%Y/%m/%d %H:%M:%S')
                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
@@ -107,9 +117,9 @@ ValueError: time data '2023/03/16' does not match format '%Y/%m/%d %H:%M:%S'
 ====================
 正在执行 TongYiQianWen.py ...
 Traceback (most recent call last):
-  File "/c/c/aitest/20240316/4.python分割nginx日志/TongYiQianWen.py", line 28, in <module>
+  File "/p/AI-TestRecords/4.python分割nginx日志/TongYiQianWen.py", line 28, in <module>
     create_dirs_and_move_logs(args.log_file)
-  File "/c/c/aitest/20240316/4.python分割nginx日志/TongYiQianWen.py", line 11, in create_dirs_and_move_logs
+  File "/p/AI-TestRecords/4.python分割nginx日志/TongYiQianWen.py", line 11, in create_dirs_and_move_logs
     timestamp = datetime.strptime(timestamp_str, '%Y/%m/%d %H:%M:%S')
                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
