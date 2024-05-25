@@ -1,0 +1,18 @@
+<!-- 创建一个SVG图像来表示跨性别旗帜，你可以使用下面的代码： -->
+
+<svg width="100%" height="300px" viewBox="0 0 100 20" preserveAspectRatio="none">
+  <!-- 蓝色条纹 -->
+  <rect x="0" y="0" width="100" height="4" fill="#5BCEFA"/>
+  <!-- 粉色条纹 -->
+  <rect x="0" y="4" width="100" height="4" fill="#F5A9B8"/>
+  <!-- 白色条纹 -->
+  <rect x="0" y="8" width="100" height="4" fill="#FFFFFF"/>
+  <!-- 粉色条纹 -->
+  <rect x="0" y="12" width="100" height="4" fill="#F5A9B8"/>
+  <!-- 蓝色条纹 -->
+  <rect x="0" y="16" width="100" height="4" fill="#5BCEFA"/>
+</svg>
+
+<!-- 这段代码创建了一个SVG图像，其中包含了五个矩形，每个矩形代表旗帜上的一个条纹。`width="100%"` 表示SVG图像的宽度将占满其容器的100%宽度，`height="300px"` 表示SVG图像的高度为300像素，这个高度足以容纳所有五个条纹。`viewBox="0 0 100 20"` 定义了SVG的内部坐标系统，其中100x20的视图框可以容纳五个条纹，每个条纹的高度为4（20%的视图框高度）。`preserveAspectRatio="none"` 确保SVG图像在任何尺寸下都保持其原始的宽高比。 -->
+
+<!-- 你可以将这段代码复制到HTML文件中，或者直接在支持SVG的编辑器中使用它。 -->
