@@ -1,36 +1,45 @@
-// 要在不依赖 HTML DOM API 的环境下获取图片的尺寸，我们可以利用 fetch API 来获取图片数据，然后通过读取图片的元数据来确定其宽高。然而，由于在 Service Worker 等环境中我们没有直接解析图片数据（如通过创建 Image 对象）的能力，我们需要依赖于可在这些环境中使用的API来间接获取这些信息。
+// 在浏览器环境中，尤其是在没有HTML DOM API的环境下（如Service Worker），我们依然可以使用JavaScript的 `fetch` API 和 `Image` 对象来加载图片并获取其宽高。下面是一个示例代码，展示了如何实现一个函数，该函数接受一个图片URL，并返回该图片的宽度和高度。
 
-// 一个常见的策略是将图片数据作为 Blob 获取，然后将其转换为 ArrayBuffer，进而解析图片的二进制格式以获取尺寸信息。不过，这种方法对于不同格式的图片，需要具体针对其文件格式（如PNG, JPEG等）编写解析逻辑。下面以获取JPEG图片尺寸为例展示如何实现：
+async function getImageDimensions(url) {
+    return new Promise((resolve, reject) => {
+        const img = new Image();
 
-async function getImageSizeFromURL(url) {
-    // 使用fetch API获取图片数据
-    const response = await fetch(url);
-    const arrayBuffer = await response.arrayBuffer(); // 转换为ArrayBuffer以便处理
-    
-    // 创建一个Uint8Array视图用于检索数据
-    const view = new Uint8Array(arrayBuffer);
-    
-    // JPEG图片的尺寸信息通常位于开头部分之后的一段特定结构中
-    // 这里简化处理，不遍历所有可能的标记，仅作为示例
-    let offset = 2; // JPEG文件标识符之后的偏移量
-    let length = view.length;
-    let width = 0, height = 0;
-  
-    while (offset < length) {
-      if (view[offset] == 0xFF && view[offset + 1] == 0xC0) { // 0xFFC0是SOF0标记，包含尺寸信息
-        height = (view[offset + 5] << 8) + view[offset + 6];
-        width = (view[offset + 7] << 8) + view[offset + 8];
-        break;
-      }
-      offset++;
-    }
-  
-    if (width > 0 && height > 0) {
-      return { width, height };
-    } else {
-      throw new Error('Unable to determine image size.');
-    }
-  }
-  
-// 使用示例
-getImageSizeFromURL('image_url_here').then(size => console.log(size)).catch(console.error);
+        img.onload = () => {
+            resolve({ width: img.width, height: img.height });
+        };
+
+        img.onerror = (err) => {
+            reject(new Error('Failed to load image'));
+        };
+
+        img.src = url;
+    });
+}
+
+// 示例使用
+const imageUrl = 'http://127.0.0.1/KagurazakaMasae_400x400.png';
+getImageDimensions(imageUrl)
+    .then(dimensions => {
+        console.log(`Image dimensions: ${dimensions.width}x${dimensions.height}`);
+    })
+    .catch(error => {
+        console.error(error.message);
+    });
+
+/*
+说明：
+1. **使用 `Image` 对象**：
+   - 创建一个新的 `Image` 实例，并设置其 `src` 属性为指定的URL。这样可以加载图片并在图片加载完成后获取其宽度和高度。
+
+2. **Promise 用法**：
+   - 使用 `Promise` 来处理图片加载的异步操作，确保在图片加载成功或失败时可以正确处理结果。
+
+3. **错误处理**：
+   - `img.onerror` 事件用于捕获加载错误，并通过 `reject` 方法抛出错误信息。
+
+注意事项：
+- 该代码可以在Service Worker中运行，因为它使用了标准的JavaScript API，不依赖于DOM API。
+- 请确保图片URL是可访问的，且服务器支持跨域请求（CORS）。
+
+如果你在使用此函数时遇到跨域问题（如CORS限制），可能需要在服务器端配置适当的CORS头部。
+*/
